@@ -1,0 +1,119 @@
+body {
+  background-color: #e6e6fa;
+  font-family: Didot, Georgia, serif;
+}
+
+header img {
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("makeup.png");
+  border: 8px solid black;
+  object-fit: contain;
+}
+
+.nav {
+  border: 3px solid purple;
+  border-width: 5px;
+  margin: 20px;
+  padding: 6px;
+  text-align: center;
+  background-color: white;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 4px solid pink;
+}
+
+.nav a:hover {
+  background-color: Black;
+  color: white;
+}
+
+.nav a.active {
+  background-color: purple;
+  opacity: 0.7;
+  color: white;
+}
+
+.top {
+  color: black;
+  font-size: 270%;
+  font-family: Didot, Georgia, serif;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  height: 60px;
+  width: 101%;
+}
+
+p, li {
+  font-family: Didot, Georgia, serif;
+  line-height: 1.6;
+}
+
+.side {
+  float: left;
+  width: 32.4%;
+  padding: 6px;
+}
+
+.toprow::after {
+  display: table;
+}
+
+.second {
+  color: black;
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+  font-size: 270%;
+  font-family: Didot, Georgia, serif;
+  border-width: 2px;
+  text-align: left;
+  height: 60px;
+  width: 100%;
+}
+
+.third {
+  color: black;
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+  font-size: 270%;
+  font-family: Didot, Georgia, serif;
+  border-width: 2px;
+  text-align: right;
+  height: 60px;
+  width: 100%;
+}
+
+.colour {
+  color: mediumVioletRed;
+  font-size: 200%;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  font-family: Tacoma, sans-serif;
+  font-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 3px solid purple;
+  text-align: left;
+  padding: 5px;
+}
